@@ -1,7 +1,7 @@
 <?php
   // PDO Style DB connections
   try {
-  	$dbh = new PDO('mysql:host=localhost;dbname=lunaria_bda_case_mix_model', 'lunaria_bdacasem', '');
+  	$dbh = new PDO('mysql:host=localhost;dbname=bda_case_mix_model', 'bdacasem', '');
   }
   catch (PDOException $e)
   {
